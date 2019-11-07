@@ -56,6 +56,8 @@ else
   let &rtp = g:_spacevim_root_dir . ',' . $VIMRUNTIME
 endif
 
+autocmd FileType gitcommit,gitrebase,gitconfig set bufhidden=delete
+
 call SpaceVim#begin()
 
 call SpaceVim#custom#load()
