@@ -63,4 +63,6 @@ call SpaceVim#begin()
 call SpaceVim#custom#load()
 
 call SpaceVim#end()
+
+"set timeoutlen=100
 " vim:set et sw=2 cc=80:
